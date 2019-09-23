@@ -58,7 +58,7 @@ Vicidial
     \    input text  //input[@name='phone_login']  ${agentid}
     \    click element  //input[@name='phone_pass']
     \    input text  //input[@name='phone_pass']  ${password}
-    \    click element  //input[@type='button' and @name='SUBMIT']
+    \    click element  //input[@type='button' and @name='SUBMIT' and @onclick= "user_submit()"]
     \    wait until page contains  MODIFY A USERS RECORD: ${agentid}
     \    click element  //input[@type='submit' and @name='SUBMIT']
     \    click element  //font[text()=' Admin ']
