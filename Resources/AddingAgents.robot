@@ -29,7 +29,7 @@ ${fullname}
 Vicidial
     # The code below includes the whole process of getting the values from excel file and creating agents in vicidial
     open browser  ${URL}  ${Browser}
-    set window size  400  700
+    set window size  600  700
     set window position  100  40
     wait until page contains  Administration  1 min
     click element  //a[text()='Administration']
