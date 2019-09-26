@@ -20,8 +20,8 @@ class AgentID:
     #     return df.iloc[row, col]
 
 
-All_Names = AgentID()
-print((All_Names.agentid()))
+# All_Names = AgentID()
+# print((All_Names.rowscount()))
 
 # with open("E:/Travel Connect/resources/Inputfile_TravellingConnect_01062019.xml") as f:
 #     xml_data = f.read()
